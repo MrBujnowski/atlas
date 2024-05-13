@@ -1,0 +1,66 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+div.form-group {
+    width: 15%;
+    padding-bottom: 1%;
+}
+
+div.odsazeni {
+    padding-bottom: 2%;
+}
+
+div.odsazeni1 {
+    padding-bottom: 10%;
+}
+
+h1 {
+    font-size: 5em;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 50px;
+}
+
+body {
+    background-color: rgb(59, 59, 59);
+}
+
+div.card {
+    border: none;
+}
+
+.image-divider {
+    width: auto;
+    height: 3px;
+    background-color: black;
+}
+
+header {
+    /*background-image: url('img/atlas.png');*/
+    background-size: cover;
+    background-position: center;
+}
+
+/* Úprava labelů u selectů */
+label {
+    color: #ffffff; /* Barva textu */
+    font-weight: bold; /* Tučnější font */
+}
+
+/* Úprava selectů */
+select {
+    width: 100%; /* Zajistí, aby selecty měly 100% šířku svého rodičovského elementu */
+    padding: 5px; /* Odsazení uvnitř selectu */
+    border: 1px solid #ccc; /* Ohraničení selectu */
+    border-radius: 5px; /* Zaoblené rohy */
+    background-color: #ffffff; /* Barva pozadí */
+    color: #555; /* Barva textu */
+    font-size: 16px; /* Velikost písma */
+    font-family: 'Open Sans', sans-serif; /* Font */
+    margin-bottom: 10px; /* Odsazení mezi selecty */
+}
+

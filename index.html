@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="cs">
+    <head>
+        <title>Atlas</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Atlas</h1>
+            <div class="form-group">
+                <label for="selContinent">Vyber kontinent:</label>
+                <select class="form-control" id="selContinent">
+                  <option value="europe">Evropa</option>
+                  <option value="africa">Afrika</option>
+                  <option value="asia">Asie</option>
+                  <option value="oceania">Oceanie</option>
+                  <option value="americas">Amerika</option>
+                  <option value="world">Celý svět</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+<label for="sortParam">Řadit podle:</label>
+<select class="form-control" id="sortParam">
+    <option value="population">Populace</option>
+    <option value="area">Rozloha</option>
+    <option value="borders">Počet sousedících států</option>
+</select>
+</div>
+        </header>
+        <main class="container-fluid">
+            <div class="row" id="staty">
+
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr style="border-top: 1px solid white;">
+                        <p style="color: white; text-align: center; font-size: large;">&copy; Antonín Bujnovský IT2 - 2024</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"
+    ></script>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"
+    ></script>
+    <script src="atlas.js"></script>
+    </body>
+    
+</html>
